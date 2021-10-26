@@ -1,0 +1,27 @@
+.nav-dropdown:hover .drop {
+    display: flex;
+    flex-direction: column;
+}
+
+.create:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    left: 158px;
+    top: 0px;
+}
+
+img {
+    width: 55px;
+    height: 35px;
+}
+
+
+
+#topMenyu{
+    position: fixed !important;
+    top: 0px !important;
+    z-index: 1000;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}

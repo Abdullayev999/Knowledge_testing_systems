@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel ="stylesheet" th:href ="@{/css/allTestStyle.css}">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<th:block th:include="/_menu"></th:block>
+
+<div class="container">
+    <table th:if="${categories!=null}" class="table table-success table-striped">
+        <h3>Categories</h3>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Update</th>
+            <th>Remove</th>
+        </tr>
+        </thead>
+        <tbody  >
+        <tr th:each="category : ${categories}">
+            <td th:text="${category.id}"  ></td>
+            <td th:text="${category.name}"></td>
+            <td th:text="${category.description}"></td>
+            <td>
+                <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Update"
+                   th:href="@{/updateCategory(id=${category.id})}"></a>
+            </td>
+            <td>
+                <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete"
+                   th:href="@{/removeCategory(id=${category.id})}"></a>
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+    <button  class="btn btn-primary" onclick="window.location.href='createNewCategory'">Create Category</button>
+
+    <label th:if="${error!=null}" th:utext="${error}"></label>
+
+    <form th:if="${category==null && newCategory!=null}"  action="/saveCategory"  >
+        <div class="mb-3">
+            <label for="exampleInputCategory" class="form-label">Enter category</label>
+            <input required name="category"   type="text" class="form-control" id="exampleInputCategor"  >
+            <label for="exampleInputDescription" class="form-label">Enter Description</label>
+            <input required name="description"   type="text" class="form-control" id="exampleInputDescription"  >
+        </div>
+        <div class="row  w-100">
+            <div class="col-6">
+                <button type="button" onclick="window.location.href='createCategory'" class="btn btn-primary w-100">Cancle
+                </button>
+            </div>
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary w-100">Create</button>
+            </div>
+        </div>
+    </form>
+
+    <form th:if="${category!=null && editCategory!=null}" action="/editCategory" method="post"  modelAttribute="category">
+        <div class="mb-3">
+            <input hidden type="text" name="id" th:value="${category.id}"/>
+            <label for="exampleInputcategory" class="form-label">Edit Category</label>
+            <input required name="name" th:value="${category.name}"   type="text" class="form-control" id="exampleInputcategory"  >
+            <label for="exampleInputdescription2" class="form-label">Edit Category</label>
+            <input required name="description" th:value="${category.description}"   type="text" class="form-control" id="exampleInputdescription2"  >
+        </div>
+        <div class="row  w-100">
+            <div class="col-6">
+                <button type="button" onclick="window.location.href='createCategory'" class="btn btn-primary w-100">Cancle
+                </button>
+            </div>
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary w-100">Save</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+</body>
+</html>

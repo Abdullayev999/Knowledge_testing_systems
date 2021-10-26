@@ -1,0 +1,1696 @@
+Begin of method " userInfo " 2021-10-19
+End of method " userInfo " 2021-10-19
+
+-------------------------------------
+Begin of method \" "+name + " \" "+ new LocalDate() +"\nEnd of method \" "+name + " \" "+ new LocalDate() +"\n
+-------------------------------------
+Begin of method \" "+name + " \" "+ new LocalDate() +"\nEnd of method \" "+name + " \" "+ new LocalDate() +"\n
+-------------------------------------
+Begin of method \" "+name + " \" "+ new LocalDate() +"\nEnd of method \" "+name + " \" "+ new LocalDate() +"\n
+-------------------------------------
+Begin of method \" "+name + " \" "+ new LocalDate() +"\nEnd of method \" "+name + " \" "+ new LocalDate() +"\n
+-------------------------------------
+Begin of method \" "+name + " \" "+ new LocalDate() +"\nEnd of method \" "+name + " \" "+ new LocalDate() +"\n
+-------------------------------------
+Begin of method \" "+name + " \" "+ new LocalDate() +"\nEnd of method \" "+name + " \" "+ new LocalDate() +"\n
+-------------------------------------
+Begin of method " userInfo " 2021-10-19
+End of method " userInfo " 2021-10-19
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-19
+End of method " welcomePage " 2021-10-19
+
+-------------------------------------
+Begin of method " about " 2021-10-19
+End of method " about " 2021-10-19
+
+-------------------------------------
+Begin of method " paint " 2021-10-19
+End of method " paint " 2021-10-19
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-19T23:32:13.440
+End of method " userInfo " 2021-10-19T23:32:13.463
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-19T23:32:16.182
+End of method " welcomePage " 2021-10-19T23:32:16.183
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-19T23:32:18.127
+End of method " adminPage " 2021-10-19T23:32:18.127
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-19T23:32:20.180
+End of method " welcomePage " 2021-10-19T23:32:20.180
+
+-------------------------------------
+Begin of method " searchMovie " 2021-10-19T23:32:21.922
+End of method " searchMovie " 2021-10-19T23:32:21.923
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-19T23:32:24.089
+End of method " userInfo " 2021-10-19T23:32:24.090
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-19  23:33:46.476
+End of method " userInfo " 2021-10-19  23:33:46.482
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-19  23:33:48.186
+End of method " adminPage " 2021-10-19  23:33:48.186
+
+-------------------------------------
+Begin of method " paint " 2021-10-19  23:33:49.633
+End of method " paint " 2021-10-19  23:33:49.634
+
+-------------------------------------
+Begin of method " searchMovie " 2021-10-19  23:33:51.311
+End of method " searchMovie " 2021-10-19  23:33:51.312
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-19  23:33:54.100
+End of method " userInfo " 2021-10-19  23:33:54.101
+
+-------------------------------------
+Begin of method " about " 2021-10-19  23:33:54.956
+End of method " about " 2021-10-19  23:33:54.957
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  18:52:29.896
+End of method " welcomePage " 2021-10-25  18:52:29.913
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  18:52:30.909
+End of method " welcomePage " 2021-10-25  18:52:30.909
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  18:53:40.315
+End of method " welcomePage " 2021-10-25  18:53:40.315
+
+-------------------------------------
+Begin of method " about " 2021-10-25  18:53:42.892
+End of method " about " 2021-10-25  18:53:42.892
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  18:53:52.915
+End of method " welcomePage " 2021-10-25  18:53:52.917
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  18:54:06.422
+End of method " welcomePage " 2021-10-25  18:54:06.422
+
+-------------------------------------
+Begin of method " loginPage " 2021-10-25  18:54:09.249
+End of method " loginPage " 2021-10-25  18:54:09.250
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-25  18:54:14.911
+End of method " userInfo " 2021-10-25  18:54:14.913
+
+-------------------------------------
+Begin of method " statistic " 2021-10-25  18:54:20.704
+End of method " statistic " 2021-10-25  18:54:20.705
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-25  18:54:24.815
+End of method " doTesting " 2021-10-25  18:54:24.816
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-25  18:55:56.329
+End of method " doTesting " 2021-10-25  18:55:56.349
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-25  18:56:50.455
+End of method " doTesting " 2021-10-25  18:56:50.468
+
+-------------------------------------
+Begin of method " startTest " 2021-10-25  18:56:56.352
+End of method " startTest " 2021-10-25  18:56:56.353
+
+-------------------------------------
+Begin of method " checkTest " 2021-10-25  18:57:03.278
+End of method " checkTest " 2021-10-25  18:57:03.279
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-25  18:57:15.033
+End of method " doTesting " 2021-10-25  18:57:15.033
+
+-------------------------------------
+Begin of method " paint " 2021-10-25  18:57:24.273
+End of method " paint " 2021-10-25  18:57:24.273
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  18:57:35.605
+End of method " adminPage " 2021-10-25  18:57:35.606
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  18:57:37.977
+End of method " adminPage " 2021-10-25  18:57:37.978
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  18:58:12.786
+End of method " adminPage " 2021-10-25  18:58:12.799
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  18:58:55.980
+End of method " adminPage " 2021-10-25  18:58:55.998
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  18:59:33.068
+End of method " adminPage " 2021-10-25  18:59:33.069
+
+-------------------------------------
+Begin of method " allTest " 2021-10-25  18:59:38.825
+End of method " allTest " 2021-10-25  18:59:38.826
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  18:59:43.264
+End of method " createTest " 2021-10-25  18:59:43.265
+
+-------------------------------------
+Begin of method " createCategory " 2021-10-25  18:59:47.716
+End of method " createCategory " 2021-10-25  18:59:47.716
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  18:59:57.437
+End of method " createTest " 2021-10-25  18:59:57.438
+
+-------------------------------------
+Begin of method " createCategory " 2021-10-25  19:00:00.188
+End of method " createCategory " 2021-10-25  19:00:00.189
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  19:00:02.571
+End of method " createTest " 2021-10-25  19:00:02.572
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  19:00:33.494
+End of method " createTest " 2021-10-25  19:00:33.515
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  19:01:10.665
+End of method " createTest " 2021-10-25  19:01:10.676
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  19:01:32.386
+End of method " createTest " 2021-10-25  19:01:32.401
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  19:01:57.482
+End of method " createTest " 2021-10-25  19:01:57.497
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  19:02:05.664
+End of method " createTest " 2021-10-25  19:02:05.665
+
+-------------------------------------
+Begin of method " createCategory " 2021-10-25  19:02:08.044
+End of method " createCategory " 2021-10-25  19:02:08.045
+
+-------------------------------------
+Begin of method " createCategory " 2021-10-25  19:02:41.439
+End of method " createCategory " 2021-10-25  19:02:41.459
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  19:02:49.004
+End of method " createQuestion " 2021-10-25  19:02:49.005
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  19:03:14.962
+End of method " createQuestion " 2021-10-25  19:03:14.973
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  19:03:24.282
+End of method " createQuestion " 2021-10-25  19:03:24.283
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  19:03:27.720
+End of method " createAnswer " 2021-10-25  19:03:27.720
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  19:03:51.783
+End of method " createAnswer " 2021-10-25  19:03:51.796
+
+-------------------------------------
+Begin of method " paint " 2021-10-25  19:03:57.669
+End of method " paint " 2021-10-25  19:03:57.670
+
+-------------------------------------
+Begin of method " searchMovie " 2021-10-25  19:03:59.089
+End of method " searchMovie " 2021-10-25  19:03:59.089
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-25  19:04:02.620
+End of method " shooterGame " 2021-10-25  19:04:02.620
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  19:04:12.230
+End of method " welcomePage " 2021-10-25  19:04:12.230
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-25  19:04:19.226
+End of method " userInfo " 2021-10-25  19:04:19.227
+
+-------------------------------------
+Begin of method " statistic " 2021-10-25  19:10:20.140
+End of method " statistic " 2021-10-25  19:10:20.141
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-25  19:10:21.867
+End of method " doTesting " 2021-10-25  19:10:21.867
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-25  19:10:50.194
+End of method " doTesting " 2021-10-25  19:10:50.204
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:11:00.937
+End of method " about " 2021-10-25  19:11:00.937
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:16:14.503
+End of method " about " 2021-10-25  19:16:14.504
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:18:25.891
+End of method " about " 2021-10-25  19:18:25.906
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:18:34.426
+End of method " about " 2021-10-25  19:18:34.427
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:19:00.703
+End of method " about " 2021-10-25  19:19:00.721
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:19:33.693
+End of method " about " 2021-10-25  19:19:33.718
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:21:44.541
+End of method " about " 2021-10-25  19:21:44.554
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:24:55.435
+End of method " about " 2021-10-25  19:24:55.441
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:25:56.716
+End of method " about " 2021-10-25  19:25:56.731
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:27:48.651
+End of method " about " 2021-10-25  19:27:48.676
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:28:59.877
+End of method " about " 2021-10-25  19:28:59.891
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:30:15.909
+End of method " about " 2021-10-25  19:30:15.924
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:30:56.597
+End of method " about " 2021-10-25  19:30:56.605
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:31:31.510
+End of method " about " 2021-10-25  19:31:31.529
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:31:52.194
+End of method " about " 2021-10-25  19:31:52.205
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:32:45.660
+End of method " about " 2021-10-25  19:32:45.692
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  19:32:57.868
+End of method " welcomePage " 2021-10-25  19:32:57.868
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:32:59.369
+End of method " about " 2021-10-25  19:32:59.370
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:42:38.118
+End of method " about " 2021-10-25  19:42:38.124
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:47:32.244
+End of method " about " 2021-10-25  19:47:32.250
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:48:29.915
+End of method " about " 2021-10-25  19:48:29.921
+
+-------------------------------------
+Begin of method " about " 2021-10-25  19:48:37.428
+End of method " about " 2021-10-25  19:48:37.429
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-25  19:48:39.610
+End of method " userInfo " 2021-10-25  19:48:39.610
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  19:48:42.503
+End of method " welcomePage " 2021-10-25  19:48:42.504
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  19:48:51.970
+End of method " adminPage " 2021-10-25  19:48:51.971
+
+-------------------------------------
+Begin of method " allTest " 2021-10-25  19:48:56.163
+End of method " allTest " 2021-10-25  19:48:56.163
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:47:54.635
+End of method " welcomePage " 2021-10-25  22:47:54.643
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:48:18.501
+End of method " welcomePage " 2021-10-25  22:48:18.506
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:48:21.472
+End of method " welcomePage " 2021-10-25  22:48:21.472
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:48:39.339
+End of method " welcomePage " 2021-10-25  22:48:39.344
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:49:01.405
+End of method " welcomePage " 2021-10-25  22:49:01.410
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:51:39.567
+End of method " welcomePage " 2021-10-25  22:51:39.573
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  22:51:48.153
+End of method " createAnswer " 2021-10-25  22:51:48.153
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:52:47.821
+End of method " welcomePage " 2021-10-25  22:52:47.826
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:53:06.760
+End of method " welcomePage " 2021-10-25  22:53:06.766
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  22:57:13.703
+End of method " createAnswer " 2021-10-25  22:57:13.708
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:57:17.186
+End of method " welcomePage " 2021-10-25  22:57:17.186
+
+-------------------------------------
+Begin of method " createTest " 2021-10-25  22:57:19.629
+End of method " createTest " 2021-10-25  22:57:19.630
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:57:43.198
+End of method " welcomePage " 2021-10-25  22:57:43.203
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:58:08.602
+End of method " welcomePage " 2021-10-25  22:58:08.610
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:58:28.607
+End of method " welcomePage " 2021-10-25  22:58:28.614
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:58:44.236
+End of method " welcomePage " 2021-10-25  22:58:44.242
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:59:02.540
+End of method " welcomePage " 2021-10-25  22:59:02.545
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:59:29.199
+End of method " welcomePage " 2021-10-25  22:59:29.205
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  22:59:33.144
+End of method " createAnswer " 2021-10-25  22:59:33.144
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  22:59:59.873
+End of method " welcomePage " 2021-10-25  22:59:59.878
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:00:03.879
+End of method " createAnswer " 2021-10-25  23:00:03.880
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:00:41.901
+End of method " welcomePage " 2021-10-25  23:00:41.906
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:00:45.663
+End of method " createAnswer " 2021-10-25  23:00:45.663
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:01:11.815
+End of method " welcomePage " 2021-10-25  23:01:11.820
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:01:30.760
+End of method " welcomePage " 2021-10-25  23:01:30.766
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:01:35.259
+End of method " createAnswer " 2021-10-25  23:01:35.260
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:01:56.865
+End of method " welcomePage " 2021-10-25  23:01:56.871
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:01:59.790
+End of method " createAnswer " 2021-10-25  23:01:59.791
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:02:26.365
+End of method " welcomePage " 2021-10-25  23:02:26.371
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:02:29.574
+End of method " createAnswer " 2021-10-25  23:02:29.575
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:03:12.265
+End of method " createAnswer " 2021-10-25  23:03:12.276
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:03:13.427
+End of method " welcomePage " 2021-10-25  23:03:13.427
+
+-------------------------------------
+Begin of method " allTest " 2021-10-25  23:03:15.939
+End of method " allTest " 2021-10-25  23:03:15.940
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  23:03:18.649
+End of method " createQuestion " 2021-10-25  23:03:18.650
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:03:20.909
+End of method " createAnswer " 2021-10-25  23:03:20.910
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  23:03:44.055
+End of method " createQuestion " 2021-10-25  23:03:44.060
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:03:47.946
+End of method " createAnswer " 2021-10-25  23:03:47.946
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:05:02.445
+End of method " createAnswer " 2021-10-25  23:05:02.451
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  23:05:03.999
+End of method " createQuestion " 2021-10-25  23:05:03.999
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:05:08.923
+End of method " createAnswer " 2021-10-25  23:05:08.923
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-25  23:05:25.154
+End of method " createQuestion " 2021-10-25  23:05:25.154
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:05:29.226
+End of method " welcomePage " 2021-10-25  23:05:29.226
+
+-------------------------------------
+Begin of method " loginPage " 2021-10-25  23:05:35.597
+End of method " loginPage " 2021-10-25  23:05:35.598
+
+-------------------------------------
+Begin of method " registration " 2021-10-25  23:05:37.753
+End of method " registration " 2021-10-25  23:05:37.754
+
+-------------------------------------
+Begin of method " loginPage " 2021-10-25  23:05:39.529
+End of method " loginPage " 2021-10-25  23:05:39.530
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:05:41.300
+End of method " adminPage " 2021-10-25  23:05:41.300
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:05:53.492
+End of method " createAnswer " 2021-10-25  23:05:53.493
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:06:05.147
+End of method " adminPage " 2021-10-25  23:06:05.153
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:06:39.419
+End of method " adminPage " 2021-10-25  23:06:39.424
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:06:43.353
+End of method " createAnswer " 2021-10-25  23:06:43.353
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:07:13.299
+End of method " adminPage " 2021-10-25  23:07:13.304
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:07:17.384
+End of method " createAnswer " 2021-10-25  23:07:17.385
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:07:28.361
+End of method " adminPage " 2021-10-25  23:07:28.371
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:07:33.163
+End of method " createAnswer " 2021-10-25  23:07:33.164
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:08:33.551
+End of method " adminPage " 2021-10-25  23:08:33.557
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:08:39.252
+End of method " adminPage " 2021-10-25  23:08:39.252
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:08:57.735
+End of method " adminPage " 2021-10-25  23:08:57.741
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:09:00.862
+End of method " adminPage " 2021-10-25  23:09:00.863
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:10:04.244
+End of method " adminPage " 2021-10-25  23:10:04.250
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:10:22.869
+End of method " adminPage " 2021-10-25  23:10:22.875
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:10:25.957
+End of method " createAnswer " 2021-10-25  23:10:25.957
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:10:57.516
+End of method " adminPage " 2021-10-25  23:10:57.522
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:12:23.289
+End of method " adminPage " 2021-10-25  23:12:23.294
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:12:26.873
+End of method " createAnswer " 2021-10-25  23:12:26.873
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:12:37.997
+End of method " adminPage " 2021-10-25  23:12:38.003
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:12:44.585
+End of method " createAnswer " 2021-10-25  23:12:44.585
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:13:52.968
+End of method " adminPage " 2021-10-25  23:13:52.973
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:13:57.203
+End of method " createAnswer " 2021-10-25  23:13:57.203
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:14:07.409
+End of method " adminPage " 2021-10-25  23:14:07.415
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:14:12.716
+End of method " createAnswer " 2021-10-25  23:14:12.717
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:14:38.495
+End of method " createAnswer " 2021-10-25  23:14:38.501
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:14:39.526
+End of method " adminPage " 2021-10-25  23:14:39.526
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:14:42.745
+End of method " createAnswer " 2021-10-25  23:14:42.745
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:16:05.911
+End of method " adminPage " 2021-10-25  23:16:05.916
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:16:25.301
+End of method " createAnswer " 2021-10-25  23:16:25.307
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:16:26.789
+End of method " adminPage " 2021-10-25  23:16:26.790
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:16:29.628
+End of method " createAnswer " 2021-10-25  23:16:29.628
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:17:30.014
+End of method " createAnswer " 2021-10-25  23:17:30.020
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:17:31.123
+End of method " adminPage " 2021-10-25  23:17:31.124
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:17:34.108
+End of method " createAnswer " 2021-10-25  23:17:34.109
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:18:07.800
+End of method " adminPage " 2021-10-25  23:18:07.806
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:18:29.191
+End of method " adminPage " 2021-10-25  23:18:29.197
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:18:32.220
+End of method " createAnswer " 2021-10-25  23:18:32.221
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:18:48.233
+End of method " adminPage " 2021-10-25  23:18:48.238
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:18:50.987
+End of method " createAnswer " 2021-10-25  23:18:50.987
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:19:17.781
+End of method " adminPage " 2021-10-25  23:19:17.787
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:19:45.847
+End of method " adminPage " 2021-10-25  23:19:45.852
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:19:49.269
+End of method " createAnswer " 2021-10-25  23:19:49.269
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:20:13.422
+End of method " createAnswer " 2021-10-25  23:20:13.427
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:20:41.708
+End of method " adminPage " 2021-10-25  23:20:41.714
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:24:18.170
+End of method " adminPage " 2021-10-25  23:24:18.175
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:24:21.639
+End of method " createAnswer " 2021-10-25  23:24:21.639
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:24:28.147
+End of method " createAnswer " 2021-10-25  23:24:28.147
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:24:37.627
+End of method " adminPage " 2021-10-25  23:24:37.627
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:24:40.267
+End of method " createAnswer " 2021-10-25  23:24:40.267
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:25:06.757
+End of method " adminPage " 2021-10-25  23:25:06.762
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:25:36.683
+End of method " adminPage " 2021-10-25  23:25:36.688
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:26:12.437
+End of method " adminPage " 2021-10-25  23:26:12.443
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:26:27.999
+End of method " adminPage " 2021-10-25  23:26:28.005
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:26:45.095
+End of method " adminPage " 2021-10-25  23:26:45.100
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:27:21.475
+End of method " adminPage " 2021-10-25  23:27:21.475
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:27:52.661
+End of method " adminPage " 2021-10-25  23:27:52.669
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:27:55.377
+End of method " createAnswer " 2021-10-25  23:27:55.378
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:28:52.176
+End of method " adminPage " 2021-10-25  23:28:52.182
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:28:55.069
+End of method " createAnswer " 2021-10-25  23:28:55.069
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:29:15.574
+End of method " createAnswer " 2021-10-25  23:29:15.581
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:29:17.897
+End of method " adminPage " 2021-10-25  23:29:17.897
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:29:21.737
+End of method " createAnswer " 2021-10-25  23:29:21.737
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:29:45.278
+End of method " createAnswer " 2021-10-25  23:29:45.283
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:29:46.459
+End of method " adminPage " 2021-10-25  23:29:46.459
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:30:23.991
+End of method " adminPage " 2021-10-25  23:30:23.996
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:30:27.170
+End of method " createAnswer " 2021-10-25  23:30:27.170
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:30:47.108
+End of method " adminPage " 2021-10-25  23:30:47.115
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:30:51.335
+End of method " createAnswer " 2021-10-25  23:30:51.335
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:31:11.796
+End of method " createAnswer " 2021-10-25  23:31:11.802
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:31:12.651
+End of method " adminPage " 2021-10-25  23:31:12.651
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:31:22.060
+End of method " adminPage " 2021-10-25  23:31:22.065
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:32:04.184
+End of method " adminPage " 2021-10-25  23:32:04.189
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:32:08.757
+End of method " createAnswer " 2021-10-25  23:32:08.757
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:32:43.043
+End of method " adminPage " 2021-10-25  23:32:43.049
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:33:11.567
+End of method " adminPage " 2021-10-25  23:33:11.572
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:33:14.762
+End of method " createAnswer " 2021-10-25  23:33:14.763
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:33:29.987
+End of method " createAnswer " 2021-10-25  23:33:29.994
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:33:30.783
+End of method " adminPage " 2021-10-25  23:33:30.783
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:33:45.103
+End of method " adminPage " 2021-10-25  23:33:45.108
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:40:16.604
+End of method " adminPage " 2021-10-25  23:40:16.609
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:40:19.079
+End of method " createAnswer " 2021-10-25  23:40:19.079
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:40:30.252
+End of method " adminPage " 2021-10-25  23:40:30.258
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:40:33.157
+End of method " createAnswer " 2021-10-25  23:40:33.158
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:41:01.102
+End of method " adminPage " 2021-10-25  23:41:01.108
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:41:20.944
+End of method " adminPage " 2021-10-25  23:41:20.950
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:41:50.749
+End of method " adminPage " 2021-10-25  23:41:50.755
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:42:30.021
+End of method " adminPage " 2021-10-25  23:42:30.026
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:42:32.574
+End of method " createAnswer " 2021-10-25  23:42:32.575
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:43:24.622
+End of method " adminPage " 2021-10-25  23:43:24.628
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:43:29.958
+End of method " createAnswer " 2021-10-25  23:43:29.958
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:43:44.068
+End of method " createAnswer " 2021-10-25  23:43:44.073
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:43:46.007
+End of method " createAnswer " 2021-10-25  23:43:46.008
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:43:47.571
+End of method " adminPage " 2021-10-25  23:43:47.572
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:43:49.806
+End of method " createAnswer " 2021-10-25  23:43:49.806
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:44:03.815
+End of method " adminPage " 2021-10-25  23:44:03.820
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:44:18.841
+End of method " adminPage " 2021-10-25  23:44:18.847
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:45:12.188
+End of method " adminPage " 2021-10-25  23:45:12.193
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:45:15.937
+End of method " createAnswer " 2021-10-25  23:45:15.938
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:45:43.220
+End of method " createAnswer " 2021-10-25  23:45:43.225
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:46:12.614
+End of method " adminPage " 2021-10-25  23:46:12.619
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:46:17.352
+End of method " createAnswer " 2021-10-25  23:46:17.352
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:46:39.860
+End of method " createAnswer " 2021-10-25  23:46:39.865
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:46:42.406
+End of method " createAnswer " 2021-10-25  23:46:42.407
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:47:08.639
+End of method " adminPage " 2021-10-25  23:47:08.644
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:48:25.518
+End of method " adminPage " 2021-10-25  23:48:25.523
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:48:28.526
+End of method " createAnswer " 2021-10-25  23:48:28.526
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:48:39.266
+End of method " createAnswer " 2021-10-25  23:48:39.271
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-25  23:48:40.784
+End of method " adminPage " 2021-10-25  23:48:40.784
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:48:43.793
+End of method " createAnswer " 2021-10-25  23:48:43.793
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:49:29.349
+End of method " createAnswer " 2021-10-25  23:49:29.354
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:49:32.559
+End of method " createAnswer " 2021-10-25  23:49:32.559
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-25  23:52:10.576
+End of method " createAnswer " 2021-10-25  23:52:10.582
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:52:20.640
+End of method " welcomePage " 2021-10-25  23:52:20.641
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:52:21.286
+End of method " welcomePage " 2021-10-25  23:52:21.287
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:53:40.551
+End of method " welcomePage " 2021-10-25  23:53:40.557
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:54:04.617
+End of method " welcomePage " 2021-10-25  23:54:04.622
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:54:51.411
+End of method " welcomePage " 2021-10-25  23:54:51.416
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:55:32.009
+End of method " welcomePage " 2021-10-25  23:55:32.016
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:55:36.805
+End of method " welcomePage " 2021-10-25  23:55:36.805
+
+-------------------------------------
+Begin of method " about " 2021-10-25  23:55:39.822
+End of method " about " 2021-10-25  23:55:39.822
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-25  23:55:43.783
+End of method " welcomePage " 2021-10-25  23:55:43.783
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-26  00:01:21.085
+End of method " createAnswer " 2021-10-26  00:01:21.090
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:01:25.815
+End of method " welcomePage " 2021-10-26  00:01:25.815
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:02:24.567
+End of method " welcomePage " 2021-10-26  00:02:24.572
+
+-------------------------------------
+Begin of method " about " 2021-10-26  00:02:27.148
+End of method " about " 2021-10-26  00:02:27.148
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-26  00:02:31.555
+End of method " createAnswer " 2021-10-26  00:02:31.556
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-26  00:02:39.032
+End of method " createAnswer " 2021-10-26  00:02:39.033
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:03:12.152
+End of method " welcomePage " 2021-10-26  00:03:12.152
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-26  00:03:15.592
+End of method " doTesting " 2021-10-26  00:03:15.593
+
+-------------------------------------
+Begin of method " about " 2021-10-26  00:03:17.693
+End of method " about " 2021-10-26  00:03:17.693
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  00:03:20.874
+End of method " adminPage " 2021-10-26  00:03:20.875
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:03:23.228
+End of method " welcomePage " 2021-10-26  00:03:23.229
+
+-------------------------------------
+Begin of method " allTest " 2021-10-26  00:09:24.220
+End of method " allTest " 2021-10-26  00:09:24.220
+
+-------------------------------------
+Begin of method " createTest " 2021-10-26  00:13:23.551
+End of method " createTest " 2021-10-26  00:13:23.552
+
+-------------------------------------
+Begin of method " createTest " 2021-10-26  00:15:31.913
+End of method " createTest " 2021-10-26  00:15:31.914
+
+-------------------------------------
+Begin of method " createTest " 2021-10-26  00:15:42.081
+End of method " createTest " 2021-10-26  00:15:42.086
+
+-------------------------------------
+Begin of method " createTest " 2021-10-26  00:15:45.467
+End of method " createTest " 2021-10-26  00:15:45.467
+
+-------------------------------------
+Begin of method " createTest " 2021-10-26  00:15:47.952
+End of method " createTest " 2021-10-26  00:15:47.953
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:16:09.740
+End of method " welcomePage " 2021-10-26  00:16:09.740
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:16:26.303
+End of method " welcomePage " 2021-10-26  00:16:26.303
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-26  00:16:28.321
+End of method " userInfo " 2021-10-26  00:16:28.321
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:23:05.404
+End of method " paint " 2021-10-26  00:23:05.409
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:23:33.704
+End of method " paint " 2021-10-26  00:23:33.709
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:23:37.094
+End of method " paint " 2021-10-26  00:23:37.095
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:23:39.331
+End of method " paint " 2021-10-26  00:23:39.331
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:23:58.579
+End of method " paint " 2021-10-26  00:23:58.584
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:24:01.469
+End of method " paint " 2021-10-26  00:24:01.469
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:24:04.238
+End of method " paint " 2021-10-26  00:24:04.238
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:24:42.290
+End of method " paint " 2021-10-26  00:24:42.296
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:24:45.175
+End of method " paint " 2021-10-26  00:24:45.175
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:25:09.775
+End of method " paint " 2021-10-26  00:25:09.780
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:26:08.203
+End of method " paint " 2021-10-26  00:26:08.209
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:27:09.152
+End of method " paint " 2021-10-26  00:27:09.157
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:27:20.875
+End of method " paint " 2021-10-26  00:27:20.881
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:28:01.531
+End of method " paint " 2021-10-26  00:28:01.537
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:28:47.000
+End of method " paint " 2021-10-26  00:28:47.005
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:28:50.253
+End of method " paint " 2021-10-26  00:28:50.253
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:29:57.651
+End of method " paint " 2021-10-26  00:29:57.656
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:30:01.908
+End of method " paint " 2021-10-26  00:30:01.908
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:30:08.677
+End of method " paint " 2021-10-26  00:30:08.677
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:30:45.643
+End of method " paint " 2021-10-26  00:30:45.648
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:30:48.763
+End of method " paint " 2021-10-26  00:30:48.764
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:31:40.787
+End of method " paint " 2021-10-26  00:31:40.792
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:31:55.312
+End of method " paint " 2021-10-26  00:31:55.317
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:31:58.395
+End of method " paint " 2021-10-26  00:31:58.395
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:32:00.151
+End of method " paint " 2021-10-26  00:32:00.152
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:32:10.679
+End of method " paint " 2021-10-26  00:32:10.685
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:32:28.846
+End of method " paint " 2021-10-26  00:32:28.852
+
+-------------------------------------
+Begin of method " searchMovie " 2021-10-26  00:37:51.931
+End of method " searchMovie " 2021-10-26  00:37:51.937
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:38:14.335
+End of method " welcomePage " 2021-10-26  00:38:14.335
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-26  00:38:17.187
+End of method " userInfo " 2021-10-26  00:38:17.188
+
+-------------------------------------
+Begin of method " about " 2021-10-26  00:38:20.103
+End of method " about " 2021-10-26  00:38:20.103
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:47:43.449
+End of method " weather " 2021-10-26  00:47:43.450
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:55:54.727
+End of method " weather " 2021-10-26  00:55:54.733
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:55:58.137
+End of method " weather " 2021-10-26  00:55:58.138
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:56:00.095
+End of method " welcomePage " 2021-10-26  00:56:00.095
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:56:00.560
+End of method " welcomePage " 2021-10-26  00:56:00.560
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:56:03.183
+End of method " weather " 2021-10-26  00:56:03.183
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:56:33.366
+End of method " weather " 2021-10-26  00:56:33.372
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  00:56:38.143
+End of method " welcomePage " 2021-10-26  00:56:38.144
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:56:40.592
+End of method " weather " 2021-10-26  00:56:40.593
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  00:57:08.117
+End of method " weather " 2021-10-26  00:57:08.123
+
+-------------------------------------
+Begin of method " paint " 2021-10-26  00:57:28.249
+End of method " paint " 2021-10-26  00:57:28.249
+
+-------------------------------------
+Begin of method " searchMovie " 2021-10-26  00:57:29.491
+End of method " searchMovie " 2021-10-26  00:57:29.491
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  00:57:30.762
+End of method " shooterGame " 2021-10-26  00:57:30.763
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  00:58:43.823
+End of method " shooterGame " 2021-10-26  00:58:43.829
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  00:59:03.052
+End of method " shooterGame " 2021-10-26  00:59:03.058
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  00:59:19.891
+End of method " shooterGame " 2021-10-26  00:59:19.897
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  00:59:37.924
+End of method " shooterGame " 2021-10-26  00:59:37.929
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  00:59:44.143
+End of method " shooterGame " 2021-10-26  00:59:44.143
+
+-------------------------------------
+Begin of method " searchMovie " 2021-10-26  00:59:59.443
+End of method " searchMovie " 2021-10-26  00:59:59.444
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:00:04.018
+End of method " adminPage " 2021-10-26  01:00:04.019
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:01:20.555
+End of method " adminPage " 2021-10-26  01:01:20.561
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:01:58.876
+End of method " adminPage " 2021-10-26  01:01:58.881
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:02:11.291
+End of method " adminPage " 2021-10-26  01:02:11.296
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:02:14.596
+End of method " adminPage " 2021-10-26  01:02:14.596
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:02:41.155
+End of method " adminPage " 2021-10-26  01:02:41.161
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  01:02:46.926
+End of method " adminPage " 2021-10-26  01:02:46.926
+
+-------------------------------------
+Begin of method " allTest " 2021-10-26  01:02:51.162
+End of method " allTest " 2021-10-26  01:02:51.163
+
+-------------------------------------
+Begin of method " createTest " 2021-10-26  01:02:53.978
+End of method " createTest " 2021-10-26  01:02:53.978
+
+-------------------------------------
+Begin of method " createCategory " 2021-10-26  01:02:58.578
+End of method " createCategory " 2021-10-26  01:02:58.578
+
+-------------------------------------
+Begin of method " createQuestion " 2021-10-26  01:03:02.065
+End of method " createQuestion " 2021-10-26  01:03:02.065
+
+-------------------------------------
+Begin of method " createAnswer " 2021-10-26  01:03:05.462
+End of method " createAnswer " 2021-10-26  01:03:05.462
+
+-------------------------------------
+Begin of method " doTesting " 2021-10-26  01:03:09.008
+End of method " doTesting " 2021-10-26  01:03:09.009
+
+-------------------------------------
+Begin of method " statistic " 2021-10-26  01:03:10.157
+End of method " statistic " 2021-10-26  01:03:10.157
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-26  01:03:11.804
+End of method " userInfo " 2021-10-26  01:03:11.805
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:03:13.622
+End of method " welcomePage " 2021-10-26  01:03:13.622
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:07:55.073
+End of method " welcomePage " 2021-10-26  01:07:55.079
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:07:58.534
+End of method " weatherOnWeek " 2021-10-26  01:07:58.535
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:09:06.473
+End of method " welcomePage " 2021-10-26  01:09:06.478
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:09:08.971
+End of method " weatherOnWeek " 2021-10-26  01:09:08.971
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:10:55.944
+End of method " weatherOnWeek " 2021-10-26  01:10:55.949
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:11:54.624
+End of method " weatherOnWeek " 2021-10-26  01:11:54.624
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:12:03.137
+End of method " weatherOnWeek " 2021-10-26  01:12:03.143
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:13:38.467
+End of method " welcomePage " 2021-10-26  01:13:38.472
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:13:40.696
+End of method " weatherOnWeek " 2021-10-26  01:13:40.696
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:15:11.092
+End of method " weatherOnWeek " 2021-10-26  01:15:11.098
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:15:25.932
+End of method " welcomePage " 2021-10-26  01:15:25.933
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:15:28.431
+End of method " weatherOnWeek " 2021-10-26  01:15:28.431
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:17:20.922
+End of method " weatherOnWeek " 2021-10-26  01:17:20.928
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:17:23.527
+End of method " weatherOnWeek " 2021-10-26  01:17:23.528
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:17:24.716
+End of method " welcomePage " 2021-10-26  01:17:24.717
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:17:27.536
+End of method " weatherOnWeek " 2021-10-26  01:17:27.537
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:18:08.909
+End of method " weatherOnWeek " 2021-10-26  01:18:08.915
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:19:02.172
+End of method " weatherOnWeek " 2021-10-26  01:19:02.177
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:19:27.528
+End of method " weatherOnWeek " 2021-10-26  01:19:27.534
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  01:19:30.763
+End of method " welcomePage " 2021-10-26  01:19:30.763
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:20:06.408
+End of method " weatherOnWeek " 2021-10-26  01:20:06.414
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:20:44.703
+End of method " weatherOnWeek " 2021-10-26  01:20:44.708
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:21:19.316
+End of method " weatherOnWeek " 2021-10-26  01:21:19.321
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:22:30.611
+End of method " weatherOnWeek " 2021-10-26  01:22:30.616
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:23:42.773
+End of method " weatherOnWeek " 2021-10-26  01:23:42.777
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:24:07.276
+End of method " weatherOnWeek " 2021-10-26  01:24:07.281
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:24:10.281
+End of method " weatherOnWeek " 2021-10-26  01:24:10.281
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:24:45.542
+End of method " weatherOnWeek " 2021-10-26  01:24:45.548
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:24:49.166
+End of method " weatherOnWeek " 2021-10-26  01:24:49.166
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:25:06.948
+End of method " weatherOnWeek " 2021-10-26  01:25:06.958
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:25:18.499
+End of method " weatherOnWeek " 2021-10-26  01:25:18.505
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:25:21.370
+End of method " weatherOnWeek " 2021-10-26  01:25:21.370
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:25:32.617
+End of method " weatherOnWeek " 2021-10-26  01:25:32.623
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:25:47.589
+End of method " weatherOnWeek " 2021-10-26  01:25:47.594
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:25:58.739
+End of method " weatherOnWeek " 2021-10-26  01:25:58.744
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:26:18.360
+End of method " weatherOnWeek " 2021-10-26  01:26:18.365
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:26:39.321
+End of method " weatherOnWeek " 2021-10-26  01:26:39.326
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:28:44.930
+End of method " weatherOnWeek " 2021-10-26  01:28:44.936
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:40:22.369
+End of method " weatherOnWeek " 2021-10-26  01:40:22.369
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:41:42.743
+End of method " weatherOnWeek " 2021-10-26  01:41:42.749
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:44:05.563
+End of method " weatherOnWeek " 2021-10-26  01:44:05.570
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:46:43.587
+End of method " weatherOnWeek " 2021-10-26  01:46:43.593
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:46:46.404
+End of method " weatherOnWeek " 2021-10-26  01:46:46.404
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:46:49.384
+End of method " weatherOnWeek " 2021-10-26  01:46:49.385
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:47:34.046
+End of method " weatherOnWeek " 2021-10-26  01:47:34.051
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:47:37.144
+End of method " weatherOnWeek " 2021-10-26  01:47:37.144
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:47:43.637
+End of method " weatherOnWeek " 2021-10-26  01:47:43.637
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:47:47.413
+End of method " weatherOnWeek " 2021-10-26  01:47:47.413
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:48:33.030
+End of method " weatherOnWeek " 2021-10-26  01:48:33.036
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:48:35.913
+End of method " weatherOnWeek " 2021-10-26  01:48:35.913
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:49:03.341
+End of method " weatherOnWeek " 2021-10-26  01:49:03.342
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:49:07.105
+End of method " weatherOnWeek " 2021-10-26  01:49:07.105
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:49:58.392
+End of method " weatherOnWeek " 2021-10-26  01:49:58.398
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:50:02.480
+End of method " weatherOnWeek " 2021-10-26  01:50:02.481
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:50:21.065
+End of method " weatherOnWeek " 2021-10-26  01:50:21.071
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:50:26.702
+End of method " weatherOnWeek " 2021-10-26  01:50:26.702
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:50:59.603
+End of method " weatherOnWeek " 2021-10-26  01:50:59.609
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:56:04.821
+End of method " weatherOnWeek " 2021-10-26  01:56:04.826
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:56:58.379
+End of method " weatherOnWeek " 2021-10-26  01:56:58.384
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:57:42.788
+End of method " weatherOnWeek " 2021-10-26  01:57:42.793
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:58:15.131
+End of method " weatherOnWeek " 2021-10-26  01:58:15.136
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  01:59:42.803
+End of method " weatherOnWeek " 2021-10-26  01:59:42.808
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:00:21.527
+End of method " weatherOnWeek " 2021-10-26  02:00:21.532
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:00:41.375
+End of method " weatherOnWeek " 2021-10-26  02:00:41.380
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:02:05.609
+End of method " weatherOnWeek " 2021-10-26  02:02:05.614
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:02:38.039
+End of method " weatherOnWeek " 2021-10-26  02:02:38.045
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:03:42.530
+End of method " weatherOnWeek " 2021-10-26  02:03:42.530
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:04:44.329
+End of method " weatherOnWeek " 2021-10-26  02:04:44.335
+
+-------------------------------------
+Begin of method " weatherOnWeek " 2021-10-26  02:05:05.602
+End of method " weatherOnWeek " 2021-10-26  02:05:05.608
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  02:07:17.504
+End of method " welcomePage " 2021-10-26  02:07:17.510
+
+-------------------------------------
+Begin of method " weather " 2021-10-26  02:07:22.243
+End of method " weather " 2021-10-26  02:07:22.244
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  02:07:31.212
+End of method " welcomePage " 2021-10-26  02:07:31.213
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  02:07:31.884
+End of method " welcomePage " 2021-10-26  02:07:31.885
+
+-------------------------------------
+Begin of method " shooterGame " 2021-10-26  02:07:35.342
+End of method " shooterGame " 2021-10-26  02:07:35.343
+
+-------------------------------------
+Begin of method " adminPage " 2021-10-26  02:07:38.767
+End of method " adminPage " 2021-10-26  02:07:38.768
+
+-------------------------------------
+Begin of method " userInfo " 2021-10-26  02:07:40.158
+End of method " userInfo " 2021-10-26  02:07:40.159
+
+-------------------------------------
+Begin of method " welcomePage " 2021-10-26  02:07:41.485
+End of method " welcomePage " 2021-10-26  02:07:41.486
+
+-------------------------------------
+Begin of method " logoutSuccessfulPage " 2021-10-26  02:07:43.840
+End of method " logoutSuccessfulPage " 2021-10-26  02:07:43.841
+
+-------------------------------------
