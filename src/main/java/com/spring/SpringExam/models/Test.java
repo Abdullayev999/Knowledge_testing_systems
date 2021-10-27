@@ -75,5 +75,6 @@ public class Test {
         this.question = question;
         this.answer = answer;
         this.isCorrect = isCorrect;
+        System.out.println("s");
     }
 }
