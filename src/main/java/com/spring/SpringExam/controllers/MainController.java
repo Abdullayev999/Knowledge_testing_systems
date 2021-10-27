@@ -43,10 +43,10 @@ public class MainController {
     private EntityManager entityManager;
 
     @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
-    public String welcomePage(Model model, HttpServletRequest httpRequest) {
+    public String welcomePage(Model model) {
         model.addAttribute("title", "Welcome");
         model.addAttribute("message", "This is welcome page!");
-
+        HttpServletRequest httpRequest ;
 //PROVERYAET NA ROLI
         //System.out.println(httpRequest.isUserInRole("ROLE_SuperAdmin"));
 
