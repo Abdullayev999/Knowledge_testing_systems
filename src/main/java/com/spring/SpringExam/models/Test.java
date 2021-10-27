@@ -1,7 +1,7 @@
 package com.spring.SpringExam.models;
 
 
-import javax.persistence.*; 
+import javax.persistence.*;
 
 @Entity
 @Table(name = "Test")
