@@ -1,10 +1,7 @@
 package com.spring.SpringExam.models;
 
-import jdk.jfr.Name;
-import org.springframework.context.annotation.Primary;
 
-import javax.persistence.*;
-import java.util.List;
+import javax.persistence.*; 
 
 @Entity
 @Table(name = "Test")
