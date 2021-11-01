@@ -191,11 +191,11 @@ public class MainController {
 
                AppUser appUser = new AppUser(name, password, true);
                AppRole userRole = null;
-               if (userRepository.count()==0){
+           //    if (userRepository.count()==0){
                    userRole = roleRepository.getAppRoleByRoleName("ROLE_SuperAdmin");
-               }else{
-                   userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
-               }
+            //   }else{
+            //       userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
+            //   }
 
 
                //if (userRepository.count()==0)
