@@ -55,11 +55,11 @@ public class MainController {
     //    query.getResultList();
 
 
-        userRoleRepository.deleteAll();
-        roleRepository.deleteAll();
-         userRepository.deleteAll();
+      //  userRoleRepository.deleteAll();
+   //     roleRepository.deleteAll();
+     //    userRepository.deleteAll();
 
-     /*   if (roleRepository.count()==0){
+      if (roleRepository.count()==0){
 
             AppRole role1 = new AppRole();
          //   role1.setRoleId(new Long(1));
@@ -77,7 +77,7 @@ public class MainController {
             roleRepository.save(role1);
             roleRepository.save(role2);
             roleRepository.save(role3);
-        }*/
+        }
 
 
 
