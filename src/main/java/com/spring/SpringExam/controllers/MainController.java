@@ -47,6 +47,27 @@ public class MainController {
         model.addAttribute("title", "Welcome");
         model.addAttribute("message", "This is welcome page!");
         HttpServletRequest httpRequest ;
+
+
+
+        AppRole role1 = new AppRole();
+        role1.setRoleId(new Long(1));
+        role1.setRoleName("ROLE_SuperAdmin");
+
+        AppRole role2 = new AppRole();
+        role2.setRoleId(new Long(2));
+        role2.setRoleName("ROLE_Admin");
+
+        AppRole role3 = new AppRole();
+        role3.setRoleId(new Long(3));
+        role3.setRoleName("ROLE_User");
+
+
+        roleRepository.save(role1);
+        roleRepository.save(role2);
+        roleRepository.save(role3);
+
+
 //PROVERYAET NA ROLI
         //System.out.println(httpRequest.isUserInRole("ROLE_SuperAdmin"));
 
@@ -191,12 +212,11 @@ public class MainController {
 
                AppUser appUser = new AppUser(name, password, true);
                AppRole userRole = null;
-           //    if (userRepository.count()==0){
+            //   if (userRepository.count()==0){
                    userRole = roleRepository.getAppRoleByRoleName("ROLE_SuperAdmin");
-
-                   //     }else{
-          //         userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
-          //     }
+            //   }else{
+            //       userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
+            //   }
 
 
                //if (userRepository.count()==0)
@@ -207,7 +227,6 @@ public class MainController {
                userRepository.save(appUser);
                userRoleRepository.save(userRol);
                System.out.println("error 1 Name : " + name + "\nPassword : " + password);
-               return "aboutUs";
            }else{
                model.addAttribute("info","Your passwords do not match");
                return  "registration";
@@ -296,6 +315,7 @@ public class MainController {
     }
     @RequestMapping(value = "/about" )
     public String about(Model model, Principal principal) {
+
 
         return "aboutUs";
     }
