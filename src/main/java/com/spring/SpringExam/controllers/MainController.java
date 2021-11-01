@@ -171,44 +171,48 @@ public class MainController {
         return  "adminPage";
     }
 
-    /*@RequestMapping(value = "/registration" , method = RequestMethod.GET)
+    @RequestMapping(value = "/registration" , method = RequestMethod.GET)
     public String registration(Model model, Principal principal) {
 
         System.out.println("111");
-        return "aboutUs";
-    }*/
+        return "registration";
+    }
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String registration(@RequestParam String name, @RequestParam String password,@RequestParam String repaetpassword, Model model) {
 
 
-        if (password.equals(repaetpassword)){
-            System.out.println("error 1 Name : " + name + "\nPassword : " + password);
+       try {
+           if (password.equals(repaetpassword)){
+               System.out.println("error 1 Name : " + name + "\nPassword : " + password);
 
-            password = EncrytedPasswordUtils.encrytePassword(password);
-
-
-            AppUser appUser = new AppUser(name, password, true);
-            AppRole userRole = null;
-            if (userRepository.count()==0){
-                userRole = roleRepository.getAppRoleByRoleName("ROLE_SuperAdmin");
-            }else{
-                userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
-            }
+               password = EncrytedPasswordUtils.encrytePassword(password);
 
 
-            //if (userRepository.count()==0)
+               AppUser appUser = new AppUser(name, password, true);
+               AppRole userRole = null;
+               if (userRepository.count()==0){
+                   userRole = roleRepository.getAppRoleByRoleName("ROLE_SuperAdmin");
+               }else{
+                   userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
+               }
 
-            UserRole userRol = new UserRole(appUser, userRole);
+
+               //if (userRepository.count()==0)
+
+               UserRole userRol = new UserRole(appUser, userRole);
 
 
-            userRepository.save(appUser);
-            userRoleRepository.save(userRol);
-            System.out.println("error 1 Name : " + name + "\nPassword : " + password);
-        }else{
-            model.addAttribute("info","Your passwords do not match");
-            return  "registration";
-        }
+               userRepository.save(appUser);
+               userRoleRepository.save(userRol);
+               System.out.println("error 1 Name : " + name + "\nPassword : " + password);
+           }else{
+               model.addAttribute("info","Your passwords do not match");
+               return  "registration";
+           }
+       }catch (Exception ex){
+           
+       }
 
 
 
