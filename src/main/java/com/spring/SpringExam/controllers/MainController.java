@@ -50,18 +50,18 @@ public class MainController {
 
 
 
-        if (roleRepository.count()!=3){
+        if (roleRepository.count()==0){
 
             AppRole role1 = new AppRole();
-            role1.setRoleId(new Long(1));
+         //   role1.setRoleId(new Long(1));
             role1.setRoleName("ROLE_SuperAdmin");
 
             AppRole role2 = new AppRole();
-            role2.setRoleId(new Long(2));
+          //  role2.setRoleId(new Long(2));
             role2.setRoleName("ROLE_Admin");
 
             AppRole role3 = new AppRole();
-            role3.setRoleId(new Long(3));
+         //   role3.setRoleId(new Long(3));
             role3.setRoleName("ROLE_User");
 
 
