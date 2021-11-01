@@ -50,10 +50,10 @@ public class MainController {
         model.addAttribute("message", "This is welcome page!");
         HttpServletRequest httpRequest ;
 
+   //     String sql = "CREATE TABLE Persistent_Logins ( username varchar(64) not null, series varchar(64) not null, token varchar(64) not null, last_used timestamp not null, PRIMARY KEY (series));";
+    //    Query query = this.entityManager.createQuery(sql, String.class);
+    //    query.getResultList();
 
-        String sql = "CREATE TABLE Persistent_Logins ( username varchar(64) not null, series varchar(64) not null, token varchar(64) not null, last_used timestamp not null, PRIMARY KEY (series));";
-        Query query = this.entityManager.createQuery(sql, String.class);
-        query.getResultList();
 
         ///  userRoleRepository.deleteAll();
       ///  roleRepository.deleteAll();
