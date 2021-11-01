@@ -120,12 +120,6 @@ public class MainController {
         return users;
     }
 
-    @RequestMapping(value = "/registration" , method = RequestMethod.GET)
-    public String registration(Model model, Principal principal) {
-
-        System.out.println("111");
-        return "registration";
-    }
 
     @RequestMapping(value = "/createUser" )
     public String createUser(Model model, Principal principal) {
@@ -177,6 +171,13 @@ public class MainController {
         return  "adminPage";
     }
 
+
+   /* @RequestMapping(value = "/registration" , method = RequestMethod.GET)
+    public String registration(Model model, Principal principal) {
+
+        System.out.println("111");
+        return "registration";
+    }*/
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String registration(@RequestParam String name, @RequestParam String password,@RequestParam String repaetpassword, Model model) {
