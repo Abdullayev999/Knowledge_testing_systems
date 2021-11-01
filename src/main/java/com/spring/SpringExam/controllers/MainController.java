@@ -193,9 +193,10 @@ public class MainController {
                AppRole userRole = null;
            //    if (userRepository.count()==0){
                    userRole = roleRepository.getAppRoleByRoleName("ROLE_SuperAdmin");
-            //   }else{
-            //       userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
-            //   }
+
+                   //     }else{
+          //         userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
+          //     }
 
 
                //if (userRepository.count()==0)
@@ -206,6 +207,7 @@ public class MainController {
                userRepository.save(appUser);
                userRoleRepository.save(userRol);
                System.out.println("error 1 Name : " + name + "\nPassword : " + password);
+               return "aboutUs";
            }else{
                model.addAttribute("info","Your passwords do not match");
                return  "registration";
