@@ -179,7 +179,7 @@ public class MainController {
         return "registration";
     }*/
 
-    @RequestMapping(value = "/registration", method = RequestMethod.POST)
+    @RequestMapping(value = "/registration")
     public String registration(@RequestParam String name, @RequestParam String password,@RequestParam String repaetpassword, Model model) {
 
 
