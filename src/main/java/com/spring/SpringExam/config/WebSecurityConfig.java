@@ -55,12 +55,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         // For ADMIN only.
         //http.authorizeRequests().antMatchers("/admin").access("hasRole('ROLE_ADMIN')");
-        http.authorizeRequests().antMatchers("/admin").access("hasAnyRole('ROLE_SuperAdmin','ROLE_Admin','ROLE_ADMIN','ROLE_User')");
+        http.authorizeRequests().antMatchers("/admin").access("hasAnyRole('ROLE_SuperAdmin','ROLE_Admin')");
 
         // When the user has logged in as XX.
         // But access a page that requires role YY,
         // AccessDeniedException will be thrown.
         http.authorizeRequests().and().exceptionHandling().accessDeniedPage("/403");
+        System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println(http.authorizeRequests());
         // Config for Login Form
         http.authorizeRequests().and().formLogin()//
                 // Submit URL of login page.

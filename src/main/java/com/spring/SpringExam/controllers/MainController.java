@@ -295,7 +295,6 @@ public class MainController {
     @RequestMapping(value = "/about" )
     public String about(Model model, Principal principal) {
 
-
         return "aboutUs";
     }
 
