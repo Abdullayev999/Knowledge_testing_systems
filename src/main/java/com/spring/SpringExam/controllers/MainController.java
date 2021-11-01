@@ -50,22 +50,26 @@ public class MainController {
 
 
 
-        AppRole role1 = new AppRole();
-        role1.setRoleId(new Long(1));
-        role1.setRoleName("ROLE_SuperAdmin");
+        if (roleRepository.count()!=3){
 
-        AppRole role2 = new AppRole();
-        role2.setRoleId(new Long(2));
-        role2.setRoleName("ROLE_Admin");
+            AppRole role1 = new AppRole();
+            role1.setRoleId(new Long(1));
+            role1.setRoleName("ROLE_SuperAdmin");
 
-        AppRole role3 = new AppRole();
-        role3.setRoleId(new Long(3));
-        role3.setRoleName("ROLE_User");
+            AppRole role2 = new AppRole();
+            role2.setRoleId(new Long(2));
+            role2.setRoleName("ROLE_Admin");
+
+            AppRole role3 = new AppRole();
+            role3.setRoleId(new Long(3));
+            role3.setRoleName("ROLE_User");
 
 
-        roleRepository.save(role1);
-        roleRepository.save(role2);
-        roleRepository.save(role3);
+            roleRepository.save(role1);
+            roleRepository.save(role2);
+            roleRepository.save(role3);
+        }
+
 
 
 //PROVERYAET NA ROLI
