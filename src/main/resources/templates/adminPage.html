@@ -102,11 +102,11 @@
                 <td th:text="${user.getAppUser().encrytedPassword}"></td>
                 <td>
                     <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Update"
-                       th:href="@{/updateUser(id=${user.getAppUser().userId})}"></a>
+                       th:href="@{updateUser(id=${user.getAppUser().userId})}"></a>
                 </td>
                 <td>
                     <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete"
-                       th:href="@{/deleteUser(id=${user.getAppUser().userId})}"></a>
+                       th:href="@{deleteUser(id=${user.getAppUser().userId})}"></a>
                 </td>
 
             </tr>
