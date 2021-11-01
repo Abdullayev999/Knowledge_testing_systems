@@ -172,7 +172,7 @@ public class MainController {
     }
 
 
-    @RequestMapping(value = "/registration" , method = RequestMethod.POST)
+    @RequestMapping(value = "/registration" , method = RequestMethod.GET)
     public String registration(Model model, Principal principal) {
 
         System.out.println("111");
