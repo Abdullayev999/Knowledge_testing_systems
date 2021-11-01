@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
 import javax.transaction.Transactional;
 
@@ -42,6 +43,7 @@ public class MainController {
     @Autowired
     private EntityManager entityManager;
 
+
     @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
     public String welcomePage(Model model) {
         model.addAttribute("title", "Welcome");
@@ -49,11 +51,15 @@ public class MainController {
         HttpServletRequest httpRequest ;
 
 
-        userRoleRepository.deleteAll();
-        roleRepository.deleteAll();
-        userRepository.deleteAll();
+        String sql = "CREATE TABLE Persistent_Logins ( username varchar(64) not null, series varchar(64) not null, token varchar(64) not null, last_used timestamp not null, PRIMARY KEY (series));";
+        Query query = this.entityManager.createQuery(sql, String.class);
+        query.getResultList();
 
-        if (roleRepository.count()==0){
+        ///  userRoleRepository.deleteAll();
+      ///  roleRepository.deleteAll();
+       ///  userRepository.deleteAll();
+
+     /*   if (roleRepository.count()==0){
 
             AppRole role1 = new AppRole();
          //   role1.setRoleId(new Long(1));
@@ -71,7 +77,7 @@ public class MainController {
             roleRepository.save(role1);
             roleRepository.save(role2);
             roleRepository.save(role3);
-        }
+        }*/
 
 
 
