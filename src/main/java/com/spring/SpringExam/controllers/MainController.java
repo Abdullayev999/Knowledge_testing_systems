@@ -176,7 +176,7 @@ public class MainController {
     public String registration(Model model, Principal principal) {
 
         System.out.println("111");
-        return "registration";
+        return "aboutUs";
     }
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
