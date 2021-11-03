@@ -5,11 +5,9 @@ import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.spring.SpringExam.models.AppRole;
-import com.spring.SpringExam.models.AppUser;
-import com.spring.SpringExam.models.ROLE;
-import com.spring.SpringExam.models.UserRole;
+import com.spring.SpringExam.models.*;
 import com.spring.SpringExam.repositories.IRoleRepository;
+import com.spring.SpringExam.repositories.IScoreRepository;
 import com.spring.SpringExam.repositories.IUserRepository;
 import com.spring.SpringExam.repositories.IUserRoleRepository;
 import com.spring.SpringExam.utils.EncrytedPasswordUtils;
@@ -39,6 +37,8 @@ public class MainController {
     IRoleRepository roleRepository;
     @Autowired
     IUserRoleRepository userRoleRepository;
+    @Autowired
+    IScoreRepository scoreRepository;
 
     @Autowired
     private EntityManager entityManager;
@@ -311,24 +311,8 @@ public class MainController {
         return "logoutSuccessfulPage";
     }
 
-    @RequestMapping(value = "/userInfo" )
-    public String userInfo(Model model, Principal principal) {
-
-        // After user login successfully.
-        String userName = principal.getName();
-
-        System.out.println("User Name: " + userName);
-
-        User loginedUser = (User) ((Authentication) principal).getPrincipal();
-
-        String userInfo = WebUtils.toString(loginedUser);
-        model.addAttribute("userInfo", userInfo);
-
-        return "userInfoPage";
-    }
     @RequestMapping(value = "/about" )
     public String about(Model model, Principal principal) {
-
 
         return "aboutUs";
     }
