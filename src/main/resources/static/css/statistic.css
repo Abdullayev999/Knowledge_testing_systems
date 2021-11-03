@@ -1,0 +1,7 @@
+body {
+    background: rgb(220, 230, 206);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    font-size: calc(1em + 0.5vw);
+}
