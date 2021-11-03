@@ -191,7 +191,7 @@ public class TestsController {
 if (score.getUserRole()!=null){
     scoreRepository.save(score);
 }else{
-    model.addAttribute("error", "Zaregistriruytes ctobi soxranit dannie");
+    model.addAttribute("error", "Register to save your details");
 }
         List<Score> scores = (List<Score>) scoreRepository.findAll();
         if (!scores.isEmpty())
