@@ -36,8 +36,10 @@
                    th:href="@{/updateCategory(id=${category.id})}"></a>
             </td>
             <td>
-                <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete"
-                   th:href="@{/removeCategory(id=${category.id})}"></a>
+                <form action="/removeCategory">
+                    <button class="btn btn-primary">Delete</button>
+                    <input hidden name="id" th:value="${category.id}">
+                </form>
             </td>
 
         </tr>
