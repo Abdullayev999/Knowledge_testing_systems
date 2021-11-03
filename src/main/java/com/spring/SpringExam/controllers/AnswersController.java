@@ -57,7 +57,7 @@ public class AnswersController {
     }
 
     @RequestMapping("/createNewAnswer")
-    public String createNewAnswer(Model model, HttpServletRequest httpRequest) {
+    public String createNewAnswer(Model model) {
         List<Answer> answers = (List<Answer>) answerRepository.findAll();
         if (!answers.isEmpty())
             model.addAttribute("answers",answers);
@@ -67,7 +67,7 @@ public class AnswersController {
     }
 
     @RequestMapping("/updateAnswer")
-    public String updateAnswer(@RequestParam Long id,  Model model, HttpServletRequest httpRequest) {
+    public String updateAnswer(@RequestParam Long id,  Model model) {
 
         List<Answer> answers = (List<Answer>) answerRepository.findAll();
         if (!answers.isEmpty())
