@@ -6,10 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.spring.SpringExam.models.*;
-import com.spring.SpringExam.repositories.IRoleRepository;
-import com.spring.SpringExam.repositories.IScoreRepository;
-import com.spring.SpringExam.repositories.IUserRepository;
-import com.spring.SpringExam.repositories.IUserRoleRepository;
+import com.spring.SpringExam.repositories.*;
 import com.spring.SpringExam.utils.EncrytedPasswordUtils;
 import com.spring.SpringExam.utils.WebUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +29,12 @@ public class MainController {
     @Autowired
     IUserRepository userRepository;
     @Autowired
+    IAnswerRepository answerRepository;
+    @Autowired
+    ICategoryRepository categoryRepository;
+    @Autowired
+    IQuestionRepository questionRepository;
+    @Autowired
     IRoleRepository roleRepository;
     @Autowired
     IUserRoleRepository userRoleRepository;
@@ -48,8 +51,9 @@ public class MainController {
         model.addAttribute("message", "This is welcome page!");
         HttpServletRequest httpRequest ;
 
-
-
+        answerRepository.deleteAll();
+        categoryRepository.deleteAll();
+        questionRepository.deleteAll();
       //  userRoleRepository.deleteAll();
    //     roleRepository.deleteAll();
      //    userRepository.deleteAll();

@@ -51,7 +51,7 @@ public class AnswersController {
     }
 
     @RequestMapping("/removeAnswer")
-    public String removeAnswer(@RequestParam Long id, Model model, HttpServletRequest httpRequest) {
+    public String removeAnswer(@RequestParam Long id) {
         if (answerRepository.existsById(id)) answerRepository.deleteById(id);
         return "redirect:/createAnswer";
     }
