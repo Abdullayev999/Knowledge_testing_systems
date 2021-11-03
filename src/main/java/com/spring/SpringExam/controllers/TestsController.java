@@ -111,7 +111,7 @@ public class TestsController {
             System.out.println("Key = " + key + "\t:\tValue = " + value);
         }
         // System.out.println("\n1\n1\n1\n1");
-        return "redirect:/test/allTest";
+        return "redirect:/allTest";
     }
 
 

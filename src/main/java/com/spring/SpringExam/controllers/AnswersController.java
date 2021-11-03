@@ -53,7 +53,7 @@ public class AnswersController {
     @RequestMapping("/removeAnswer")
     public String removeAnswer(@RequestParam Long id, Model model, HttpServletRequest httpRequest) {
         answerRepository.deleteById(id);
-        return "redirect:/answer/createAnswer";
+        return "redirect:/createAnswer";
     }
 
     @RequestMapping("/createNewAnswer")

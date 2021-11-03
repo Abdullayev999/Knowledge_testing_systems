@@ -213,7 +213,7 @@ public class MainController {
        String role = userRoleRepository.getUserRoleByAppUser(user).getAppRole().getRoleName();
        if (!role.equals(ROLE.ROLE_SuperAdmin.toString()))
              userRepository.deleteById(id);
-        return  "redirect:/main/admin";
+        return  "redirect:/admin";
     }
 
 
@@ -232,7 +232,7 @@ public class MainController {
 
         userRepository.save(user);
 
-        return  "redirect:/main/admin";
+        return  "redirect:/admin";
     }
 
     @RequestMapping("/updateUser")

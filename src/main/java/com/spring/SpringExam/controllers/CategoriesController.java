@@ -54,7 +54,7 @@ public class CategoriesController {
     @RequestMapping("/removeCategory")
     public String removeCategory(@RequestParam Long id, Model model, HttpServletRequest httpRequest) {
         categoryRepository.deleteById(id);
-        return "redirect:/category/createCategory";
+        return "redirect:/createCategory";
     }
 
     @RequestMapping("/createNewCategory")
