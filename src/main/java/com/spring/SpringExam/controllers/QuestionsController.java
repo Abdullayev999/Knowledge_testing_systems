@@ -26,7 +26,7 @@ public class QuestionsController {
         List<Question> questions = (List<Question>) questionRepository.findAll();
         if (!questions.isEmpty())
         model.addAttribute("questions",questions);
-        return "createQuestion";
+        return "question/createQuestion";
     }
 
     @RequestMapping("/saveQuestion")
@@ -45,7 +45,7 @@ public class QuestionsController {
         if (!questions.isEmpty())
             model.addAttribute("questions",questions);
 
-        return "createQuestion";
+        return "question/createQuestion";
     }
 
     @RequestMapping("/removeQuestion")
@@ -61,7 +61,7 @@ public class QuestionsController {
             model.addAttribute("questions",questions);
 
         model.addAttribute("newQuestion","newQuestion");
-        return "createQuestion";
+        return "question/createQuestion";
     }
 
     @RequestMapping("/updateQuestion")
@@ -73,7 +73,7 @@ public class QuestionsController {
 
         model.addAttribute("question" , questionRepository.getQuestionById(id));
         model.addAttribute("editQuestion" ,"editQuestion");
-        return "createQuestion";
+        return "question/createQuestion";
     }
 
 
@@ -93,10 +93,6 @@ public class QuestionsController {
         questions = (List<Question>) questionRepository.findAll();
         if (!questions.isEmpty())
             model.addAttribute("questions",questions);
-        return "createQuestion";
+        return "question/createQuestion";
     }
-
-
-
-
 }

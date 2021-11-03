@@ -23,9 +23,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.persistence.EntityManager;
-import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
-import javax.transaction.Transactional;
 
 @Controller
 public class MainController {
@@ -118,7 +116,7 @@ public class MainController {
        AppRole userRole = roleRepository.findById((long)1).get();
         UserRole userRol = new UserRole(appUser,userRole);
         userRoleRepository.save(userRol);*/
-        return "welcomePage";
+        return "main/welcomePage";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
@@ -138,7 +136,7 @@ public class MainController {
         }
 
         model.addAttribute("users", users);
-        return "adminPage";
+        return "main/adminPage";
     }
 
     //UserRole
@@ -158,7 +156,7 @@ public class MainController {
     @RequestMapping(value = "/createUser" )
     public String createUser(Model model, Principal principal) {
         model.addAttribute("addUser","User");
-        return  "adminPage";
+        return  "main/adminPage";
     }
 
 
@@ -202,14 +200,14 @@ public class MainController {
 
         model.addAttribute("users", users);
 
-        return  "adminPage";
+        return  "main/adminPage";
     }
 
     @RequestMapping(value = "/registration" , method = RequestMethod.GET)
     public String registration(Model model, Principal principal) {
 
         System.out.println("111");
-        return "registration";
+        return "main/registration";
     }
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
@@ -242,7 +240,7 @@ public class MainController {
                System.out.println("error 1 Name : " + name + "\nPassword : " + password);
            }else{
                model.addAttribute("info","Your passwords do not match");
-               return  "registration";
+               return  "main/registration";
            }
        }catch (Exception ex){
 
@@ -250,7 +248,7 @@ public class MainController {
 
 
 
-        return "loginPage";
+        return "main/loginPage";
     }
 
     @RequestMapping("/deleteUser")
@@ -259,7 +257,7 @@ public class MainController {
        String role = userRoleRepository.getUserRoleByAppUser(user).getAppRole().getRoleName();
        if (!role.equals(ROLE.ROLE_SuperAdmin.toString()))
              userRepository.deleteById(id);
-        return  "redirect:/admin";
+        return  "redirect:/main/admin";
     }
 
 
@@ -278,7 +276,7 @@ public class MainController {
 
         userRepository.save(user);
 
-        return  "redirect:/admin";
+        return  "redirect:/main/admin";
     }
 
     @RequestMapping("/updateUser")
@@ -296,25 +294,25 @@ public class MainController {
             }
         }
 
-        return "adminPage";
+        return "main/adminPage";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String loginPage(Model model) {
 
-        return "loginPage";
+        return "main/loginPage";
     }
 
     @RequestMapping(value = "/logoutSuccessful", method = RequestMethod.GET)
     public String logoutSuccessfulPage(Model model) {
         model.addAttribute("title", "Logout");
-        return "logoutSuccessfulPage";
+        return "main/logoutSuccessfulPage";
     }
 
     @RequestMapping(value = "/about" )
     public String about(Model model, Principal principal) {
 
-        return "aboutUs";
+        return "main/aboutUs";
     }
 
 
@@ -336,7 +334,7 @@ public class MainController {
 
         }
 
-        return "403Page";
+        return "main/403Page";
     }
 
 }

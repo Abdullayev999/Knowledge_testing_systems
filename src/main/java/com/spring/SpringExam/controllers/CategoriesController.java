@@ -29,7 +29,7 @@ public class CategoriesController {
         List<Category> categories = (List<Category>) categoryRepository.findAll();
         if (!categories.isEmpty())
             model.addAttribute("categories",categories);
-        return "createCategory";
+        return "category/createCategory";
     }
 
     @RequestMapping("/saveCategory")
@@ -48,13 +48,13 @@ public class CategoriesController {
         if (!categories.isEmpty())
             model.addAttribute("categories",categories);
 
-        return "createCategory";
+        return "category/createCategory";
     }
 
     @RequestMapping("/removeCategory")
     public String removeCategory(@RequestParam Long id, Model model, HttpServletRequest httpRequest) {
         categoryRepository.deleteById(id);
-        return "redirect:/createCategory";
+        return "redirect:/category/createCategory";
     }
 
     @RequestMapping("/createNewCategory")
@@ -64,7 +64,7 @@ public class CategoriesController {
             model.addAttribute("categories",categories);
 
         model.addAttribute("newCategory","newCategory");
-        return "createCategory";
+        return "category/createCategory";
     }
 
     @RequestMapping("/updateCategory")
@@ -76,7 +76,7 @@ public class CategoriesController {
 
         model.addAttribute("category" ,categoryRepository.getCategoryById(id));
         model.addAttribute("editCategory" ,"editCategory");
-        return "createCategory";
+        return "category/createCategory";
     }
 
 
@@ -96,7 +96,7 @@ public class CategoriesController {
         categories = (List<Category>) categoryRepository.findAll();
         if (!categories.isEmpty())
             model.addAttribute("categories",categories);
-        return "createCategory";
+        return "category/createCategory";
     }
 
 

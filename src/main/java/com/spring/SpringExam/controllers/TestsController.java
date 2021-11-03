@@ -51,7 +51,7 @@ public class TestsController {
         if (!answers.isEmpty()) {
             model.addAttribute("answers", answers);
         }
-        return "createTest";
+        return "test/createTest";
     }
 
     @RequestMapping("/saveTest")
@@ -111,7 +111,7 @@ public class TestsController {
             System.out.println("Key = " + key + "\t:\tValue = " + value);
         }
         // System.out.println("\n1\n1\n1\n1");
-        return "redirect:/allTest";
+        return "redirect:/test/allTest";
     }
 
 
@@ -120,7 +120,7 @@ public class TestsController {
 
         List<Test> tests = (List<Test>) testRepository.findAll();
         model.addAttribute("tests", tests);
-        return "allTest";
+        return "test/allTest";
     }
 
     @RequestMapping("/statistic")
@@ -129,7 +129,7 @@ public class TestsController {
         List<Score> scores = (List<Score>) scoreRepository.findAll();
         if (!scores.isEmpty())
         model.addAttribute("scores", scores);
-        return "statistic";
+        return "test/statistic";
     }
 
     @RequestMapping("/doTesting")
@@ -143,7 +143,7 @@ public class TestsController {
             System.out.println(categories.get(i).getName());
         }
 
-        return "doTesting";
+        return "test/doTesting";
     }
 
     @RequestMapping("/startTest")
@@ -155,7 +155,7 @@ public class TestsController {
         model.addAttribute("exam", exam);
         model.addAttribute("CategoryId", id);
         //      List<Test> tests =
-        return "doTesting";
+        return "test/doTesting";
     }
 
     @RequestMapping("/checkTest")
@@ -197,7 +197,7 @@ if (score.getUserRole()!=null){
         if (!scores.isEmpty())
             model.addAttribute("scores", scores);
 
-        return "statistic";
+        return "test/statistic";
     }
 
     public UserRole getCurrentUser() {
