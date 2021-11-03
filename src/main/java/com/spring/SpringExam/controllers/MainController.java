@@ -51,9 +51,9 @@ public class MainController {
         model.addAttribute("message", "This is welcome page!");
         HttpServletRequest httpRequest ;
 
-        answerRepository.deleteAll();
-        categoryRepository.deleteAll();
-        questionRepository.deleteAll();
+     //   answerRepository.deleteAll();
+     //   categoryRepository.deleteAll();
+     //   questionRepository.deleteAll();
       //  userRoleRepository.deleteAll();
    //     roleRepository.deleteAll();
      //    userRepository.deleteAll();
