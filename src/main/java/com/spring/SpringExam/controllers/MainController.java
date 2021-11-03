@@ -48,9 +48,6 @@ public class MainController {
         model.addAttribute("message", "This is welcome page!");
         HttpServletRequest httpRequest ;
 
-   //     String sql = "CREATE TABLE Persistent_Logins ( username varchar(64) not null, series varchar(64) not null, token varchar(64) not null, last_used timestamp not null, PRIMARY KEY (series));";
-    //    Query query = this.entityManager.createQuery(sql, String.class);
-    //    query.getResultList();
 
 
       //  userRoleRepository.deleteAll();
@@ -79,43 +76,10 @@ public class MainController {
 
 
 
-//PROVERYAET NA ROLI
-        //System.out.println(httpRequest.isUserInRole("ROLE_SuperAdmin"));
-
-
-       /* AppRole user = new AppRole("User");
-        AppRole admin = new AppRole("Admin");
-        AppRole superAdmin = new AppRole("SuperAdmin");
-        AppRole superAdmin = new AppRole("SuperAdmin");
-
-        roleRepository.save(superAdmin);
-        roleRepository.save(admin);
-        roleRepository.save(user);*/
-
-       /* AppRole superAdmin = new AppRole("ROLE_ADMIN");
-        roleRepository.save(superAdmin);*/
-
- /*AppRole superAdmin = new AppRole("ROLE_SuperAdmin");
-        roleRepository.save(superAdmin);*/
-
-       /* AppRole superAdmin = new AppRole("ROLE_User");
-        roleRepository.save(superAdmin);*/
-
         for (AppRole role : roleRepository.findAll()) {
             System.out.println(role.toString());
         }
 
-        /*for (String name:appRoleDAO.getRoleNames(new Long(7))) {
-            System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-            System.out.println(name);
-
-            System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        }*/
-
-     /*  AppUser appUser = userRepository.findById((long)3).get();
-       AppRole userRole = roleRepository.findById((long)1).get();
-        UserRole userRol = new UserRole(appUser,userRole);
-        userRoleRepository.save(userRol);*/
         return "main/welcomePage";
     }
 
@@ -139,7 +103,6 @@ public class MainController {
         return "main/adminPage";
     }
 
-    //UserRole
 
     public List<UserRole> sortingRole(String role){
         List<UserRole> users = new ArrayList<>();
@@ -170,12 +133,7 @@ public class MainController {
                 AppUser appUser = new AppUser(userName, password, true);
                 AppRole userRole = roleRepository.getAppRoleByRoleName(role);
 
-                /*if (ROLE.equals("ROLE_Admin")){
 
-                    userRole = roleRepository.findById((long) 2).get();
-                } else{
-                    userRole = roleRepository.findById((long) 3).get();
-                }*/
 
                 UserRole userRol = new UserRole(appUser, userRole);
                 userRepository.save(appUser);
@@ -229,8 +187,6 @@ public class MainController {
                    userRole = roleRepository.getAppRoleByRoleName("ROLE_User");
                 }
 
-
-               //if (userRepository.count()==0)
 
                UserRole userRol = new UserRole(appUser, userRole);
 

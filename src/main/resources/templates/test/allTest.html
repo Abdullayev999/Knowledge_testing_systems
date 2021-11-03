@@ -22,8 +22,6 @@
            <th>Question</th>
            <th>Answer</th>
            <th>Is Correct</th>
-          <!-- <th>Update</th>
-           <th>Delete</th>-->
        </tr>
         </thead>
         <tbody  >
@@ -32,15 +30,6 @@
             <td th:utext="${test.question.name}"  ></td>
             <td th:utext="${test.answer.name}"  ></td>
             <td th:utext="${test.isCorrect}"></td>
-         <!--   <td>
-                <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Update">
-                   &lt;!&ndash;th:href="@{/updateAnswer(id=${test.id})}"&ndash;&gt;</a>
-            </td>
-            <td>
-                <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete">
-                  &lt;!&ndash; th:href="@{/removeAnswer(id=${test.id})}"&ndash;&gt;</a>
-            </td>-->
-
         </tr>
         </tbody>
     </table>

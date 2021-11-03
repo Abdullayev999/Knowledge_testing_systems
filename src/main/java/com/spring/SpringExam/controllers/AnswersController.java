@@ -19,7 +19,6 @@ public class AnswersController {
     @Autowired
     IAnswerRepository answerRepository;
 
-
     @Autowired
     private IUserRepository userRepository;
 
@@ -80,8 +79,6 @@ public class AnswersController {
     }
 
 
-
-
     @RequestMapping("/editAnswer")
     public String editAnswer(@ModelAttribute Answer answer, Model model, HttpServletRequest httpRequest) {
 
@@ -98,50 +95,6 @@ public class AnswersController {
             model.addAttribute("answers",answers);
         return "answer/createAnswer";
     }
-
-
-
-
-    /*@RequestMapping("/tests")
-    public String checkAnswers(@RequestParam Map<String, String> searchParams, Model model, HttpServletRequest httpRequest) {
-
-        System.out.println("\n1\n1\n1\n1");
-        for (String param : searchParams.values()) {
-            System.out.println(param);
-        }
-
-        *//*String a = "";
-        Map<String,String[]> map = httpRequest.getParameterMap();
-
-
-        LinkedList<Questions> questions = myGame.getQuestions();
-        int count = 0 ;*//*
-
-        // model.addAttribute("count",map.get("Q1"));
-        //  String str = request.toString();
-        //  model.addAttribute("questions",myGame.getQuestions());
-        //  model.addAttribute("str",str);
-        return "test";
-    }*/
-
-   /* @GetMapping(value = "/quiz1")
-    public String checkAnswers(@RequestParam String Q1,@RequestParam String Q2,@RequestParam String Q3,@RequestParam String Q4, Model model) {
-
-        LinkedList<Questions> questions = myGame.getQuestions();
-    int count = 0 ;
-
-        if (Q1.equals(questions.get(0).getRightAnswer()))  count++;
-        if (Q2.equals(questions.get(1).getRightAnswer()))  count++;
-        if (Q3.equals(questions.get(2).getRightAnswer()))  count++;
-        if (Q4.equals(questions.get(3).getRightAnswer()))  count++;
-
-
-        model.addAttribute("count",count);
-       //  String str = request.toString();
-      //  model.addAttribute("questions",myGame.getQuestions());
-      //  model.addAttribute("str",str);
-        return "myQuiz";
-    }*/
 
 
 }

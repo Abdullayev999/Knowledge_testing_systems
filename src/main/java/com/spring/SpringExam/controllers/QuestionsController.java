@@ -19,8 +19,6 @@ public class QuestionsController {
     @Autowired
     IQuestionRepository questionRepository;
 
-
-
     @RequestMapping("/createQuestion")
     public String createQuestion( Model model, HttpServletRequest httpRequest) {
         List<Question> questions = (List<Question>) questionRepository.findAll();

@@ -8,13 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-//@EnableAutoConfiguration
-//@ComponentScan(basePackages = { "com.spring.SpringExam.components", "com.spring.SpringExam.controllers" })
-//@EnableJpaRepositories(basePackages =  { "com.spring.SpringExam.components", "com.spring.SpringExam.repositories" })
-//@EntityScan(basePackages = "com.spring.SpringExam.models")
+
 @SpringBootApplication
 public class SpringExamApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringExamApplication.class, args);
 	}
