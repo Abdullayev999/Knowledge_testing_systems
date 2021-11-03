@@ -31,12 +31,14 @@
             <td th:text="${answer.name}"></td>
             <td>
                 <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Update"
-                   th:href="@{updateAnswer(id=${answer.id})}"></a>
+                   th:href="@{/updateAnswer(id=${answer.id})}"></a>
             </td>
             <td>
                 <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete"
-                   th:href="@{removeAnswer(id=${answer.id})}"></a>
+                   th:href="@{/removeAnswer(id=${answer.id})}"></a>
             </td>
+
+
 
         </tr>
         </tbody>
@@ -52,7 +54,7 @@
         </div>
         <div class="row  w-100">
             <div class="col-6">
-                <button type="button" onclick="window.location.href='createAnswer'" class="btn btn-primary w-100">Cancle
+                <button type="button" onclick="window.location.href='/createAnswer'" class="btn btn-primary w-100">Cancle
                 </button>
             </div>
             <div class="col-6">
