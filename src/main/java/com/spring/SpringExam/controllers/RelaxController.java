@@ -15,17 +15,17 @@ public class RelaxController {
 
     @RequestMapping("/searchMovie")
     public String searchMovie( Model model, HttpServletRequest httpRequest) {
-        return "searchMovie";
+        return "relax/searchMovie";
     }
 
     @RequestMapping("/shooterGame")
     public String shooterGame( Model model, HttpServletRequest httpRequest) {
-        return "shooterGame";
+        return "relax/shooterGame";
     }
 
     @RequestMapping("/weather")
     public String weather( Model model, HttpServletRequest httpRequest) {
-        return "weather";
+        return "relax/weather";
     }
 
 }

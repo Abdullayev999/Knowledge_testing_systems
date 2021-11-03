@@ -29,7 +29,7 @@ public class AnswersController {
         List<Answer> answers = (List<Answer>) answerRepository.findAll();
         if (!answers.isEmpty())
         model.addAttribute("answers",answers);
-        return "createAnswer";
+        return "answer/createAnswer";
     }
 
     @RequestMapping("/saveAnswer")
@@ -48,13 +48,13 @@ public class AnswersController {
         if (!answers.isEmpty())
             model.addAttribute("answers",answers);
 
-        return "createAnswer";
+        return "answer/createAnswer";
     }
 
     @RequestMapping("/removeAnswer")
     public String removeAnswer(@RequestParam Long id, Model model, HttpServletRequest httpRequest) {
         answerRepository.deleteById(id);
-        return "redirect:/createAnswer";
+        return "redirect:/answer/createAnswer";
     }
 
     @RequestMapping("/createNewAnswer")
@@ -64,7 +64,7 @@ public class AnswersController {
             model.addAttribute("answers",answers);
 
         model.addAttribute("newAnswer","newAnswer");
-        return "createAnswer";
+        return "answer/createAnswer";
     }
 
     @RequestMapping("/updateAnswer")
@@ -76,7 +76,7 @@ public class AnswersController {
 
         model.addAttribute("answer" ,answerRepository.getAnswerById(id));
         model.addAttribute("editAnswer" ,"editAnswer");
-        return "createAnswer";
+        return "answer/createAnswer";
     }
 
 
@@ -96,7 +96,7 @@ public class AnswersController {
         answers = (List<Answer>) answerRepository.findAll();
         if (!answers.isEmpty())
             model.addAttribute("answers",answers);
-        return "createAnswer";
+        return "answer/createAnswer";
     }
 
 
