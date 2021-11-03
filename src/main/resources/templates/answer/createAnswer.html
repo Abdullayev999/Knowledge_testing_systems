@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -34,8 +34,12 @@
                    th:href="@{/updateAnswer(id=${answer.id})}"></a>
             </td>
             <td>
-                <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete"
-                   th:href="@{/removeAnswer/${answer.id}}"></a>
+               <form action="/removeAnswer">
+                   <button class="btn btn-primary">Delete</button>
+              <!--     <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text=""
+                      th:href="@{/removeAnswer(id=${answer.id})}"></a>-->
+                   <input hidden name="id" th:value="${answer.id}">
+               </form>
             </td>
 
         </tr>
