@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel ="stylesheet" th:href ="@{/css/createAnswerStyle.css}">
+    <link rel ="stylesheet" th:href ="@{/css/allTestStyle.css}">
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </head>
-
 <body>
-<th:block th:include="/_menu"></th:block>
+<th:block th:include="_menu"></th:block>
 
 <div class="container">
-    <table th:if="${answers!=null}" class="table table-success table-striped">
-        <h3>Answers</h3>
+    <table th:if="${questions!=null}" class="table table-success table-striped">
+        <h3>Questions</h3>
         <thead>
        <tr>
            <th>#</th>
@@ -26,33 +25,33 @@
        </tr>
         </thead>
         <tbody  >
-        <tr th:each="answer : ${answers}">
-            <td th:text="${answer.id}"  ></td>
-            <td th:text="${answer.name}"></td>
+        <tr th:each="question : ${questions}">
+            <td th:text="${question.id}"  ></td>
+            <td th:text="${question.name}"></td>
             <td>
                 <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Update"
-                   th:href="@{/updateAnswer(id=${answer.id})}"></a>
+                   th:href="@{/updateQuestion(id=${question.id})}"></a>
             </td>
             <td>
                 <a style="border:2px solid grey;background: lightgray;text-decoration: none" th:text="Delete"
-                   th:href="@{/removeAnswer(id=${answer.id})}"></a>
+                   th:href="@{/removeQuestion(id=${question.id})}"></a>
             </td>
 
         </tr>
         </tbody>
     </table>
-    <button  class="btn btn-primary" onclick="window.location.href='createNewAnswer'">Create Answer</button>
+    <button  class="btn btn-primary" onclick="window.location.href='createNewQuestion'">Create Question</button>
 
     <label th:if="${error!=null}" th:utext="${error}"></label>
 
-    <form th:if="${answer==null && newAnswer!=null}"  action="/saveAnswer"  >
+    <form th:if="${question==null && newQuestion!=null}"  action="/saveQuestion"  >
         <div class="mb-3">
-            <label for="exampleInputAnswer" class="form-label">Enter Answer</label>
-            <input required name="answer"   type="text" class="form-control" id="exampleInputAnswer"  >
+            <label for="exampleInputQuestions" class="form-label">Enter Question</label>
+            <input required name="question"   type="text" class="form-control" id="exampleInputQuestions"  >
         </div>
         <div class="row  w-100">
             <div class="col-6">
-                <button type="button" onclick="window.location.href='createAnswer'" class="btn btn-primary w-100">Cancle
+                <button type="button" onclick="window.location.href='createQuestion'" class="btn btn-primary w-100">Cancle
                 </button>
             </div>
             <div class="col-6">
@@ -61,15 +60,15 @@
         </div>
     </form>
 
-    <form th:if="${answer!=null && editAnswer!=null}" action="/editAnswer" method="post"  modelAttribute="answer">
+    <form th:if="${question!=null && editQuestion!=null}" action="/editQuestion" method="post"  modelAttribute="question">
         <div class="mb-3">
-            <input hidden type="text" name="id" th:value="${answer.id}"/>
-            <label for="exampleInputAnwer" class="form-label">Edit Answer</label>
-            <input required name="name" th:value="${answer.name}"   type="text" class="form-control" id="exampleInputAnwer"  >
+            <input hidden type="text" name="id" th:value="${question.id}"/>
+            <label for="exampleInputQuestion" class="form-label">Edit Answer</label>
+            <input required name="name" th:value="${question.name}"   type="text" class="form-control" id="exampleInputQuestion"  >
         </div>
         <div class="row  w-100">
             <div class="col-6">
-                <button type="button" onclick="window.location.href='createAnswer'" class="btn btn-primary w-100">Cancle
+                <button type="button" onclick="window.location.href='createQuestion'" class="btn btn-primary w-100">Cancle
                 </button>
             </div>
             <div class="col-6">
@@ -78,8 +77,5 @@
         </div>
     </form>
 </div>
-
-
-
 </body>
 </html>
