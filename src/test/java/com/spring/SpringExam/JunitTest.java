@@ -28,7 +28,7 @@ public class JunitTest {
 
     @Test
     void wrongIndex(){
-       AppUser user =  userRepository.getByUserId(new Long(1));
+       AppUser user =  userRepository.getByUserId(new Long(-1));
        Assert.assertNotNull(user);
     }
 }
