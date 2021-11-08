@@ -18,6 +18,11 @@ public class RelaxController {
         return "relax/searchMovie";
     }
 
+    @RequestMapping("/movie")
+    public String Movie( Model model, HttpServletRequest httpRequest) {
+        return "relax/movie";
+    }
+
     @RequestMapping("/shooterGame")
     public String shooterGame( Model model, HttpServletRequest httpRequest) {
         return "relax/shooterGame";
