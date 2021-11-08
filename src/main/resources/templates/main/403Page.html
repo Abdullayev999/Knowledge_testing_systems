@@ -140,7 +140,7 @@
     100% { opacity: 1; transform: scale(0.4) translate(100px, 300px) }
   }
 
-  /*@media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 850px) {
     .maincontainer {
       transform: scale(0.6);
       width: 600px;
@@ -151,16 +151,14 @@
     .errortext {
       font-size: 1em;
     }
-  }*/
+  }
 </style>
 </head>
 
 <body>
 <th:block th:include="_menu"></th:block>
-<!--<br>
-<br>
-<h3 th:if="${message != null}" th:utext="${message}" style="color: red;"></h3>
-<div th:if="${userInfo != null}" th:utext="${userInfo}"></div>-->
+
+
 
 <div class="maincontainer">
   <div class="bat">
@@ -191,7 +189,11 @@
 
 </div>
 <h1 class="errorcode">ERROR 403</h1>
-<div class="errortext">This area is forbidden. Turn back now!</div>
+<div class="errortext">
+  <h3 th:if="${message != null}" th:utext="${message}" style="color: red;"></h3>
+  <div th:if="${userInfo != null}" th:utext="${userInfo}"></div>
+</div>
+
 
 
 </body>
