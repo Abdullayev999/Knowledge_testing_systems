@@ -1213,6 +1213,7 @@ footer .col:nth-child(5) {
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
+    width: 100%;
 }
 
 #imgPath {
