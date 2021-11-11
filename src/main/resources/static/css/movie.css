@@ -1663,3 +1663,11 @@ footer .col:nth-child(5) {
     justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
+.progresBar {
+    overflow: hidden;
+}
+
+.progresBar canvas {
+    width: 70px !important;
+    height: 69px !important;
+}
