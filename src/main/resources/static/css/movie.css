@@ -2460,3 +2460,8 @@ footer .col:nth-child(5) {
     }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+body{
+    padding-top: 75px;
+}
