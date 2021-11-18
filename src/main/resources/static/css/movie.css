@@ -2361,7 +2361,7 @@ footer .col:nth-child(5) {
 
 /* The Modal (background) */
 .modal {
-    display: none;
+    display: none !important;
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
