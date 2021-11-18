@@ -2462,6 +2462,26 @@ footer .col:nth-child(5) {
 /*# sourceMappingURL=style.css.map */
 
 
+#context {
+    display: none;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: fixed;
+    min-width: 200px;
+    z-index: 9999;
+}
+
+#context a,
+#context label {
+    margin-left: 20px;
+}
+
+#context a:hover {
+    background-color: #000000;
+    color: white;
+}
+
 body{
     padding-top: 75px;
 }

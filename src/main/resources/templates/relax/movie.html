@@ -25,7 +25,14 @@
 </head>
 <body>
 <th:block th:include="_menu"></th:block>
-
+<div id="context" class="row">
+  <div class="list-group" id="list-tab" role="tablist">
+    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-list"></i><label>Добавить в список</label></a>
+    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-heart"></i><label>Избранное</label></a>
+    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-bookmark"></i><label>Список отслеживания</label></a>
+    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-star"></i><label>Ваш рейтинг</label></a>
+  </div>
+</div>
 <div id="myModal" class="modal">
 
   <span class="close">&times;</span>

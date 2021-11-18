@@ -1765,3 +1765,18 @@ async function loadNewItems(page = 1, type, searchQ) {
 
 
 }
+
+$('body').on('click', '.contextBtn', function() {
+    let btn = event.target;
+    if ($(btn).hasClass('contextBtn')) {
+        $('#context').css('top', event.clientY);
+        $('#context').css('left', event.clientX);
+        $('#context').show();
+    }
+})
+$('*').click(function() {
+    let btn = event.target;
+    if (!$(btn).hasClass('contextBtn')) {
+        $('#context').hide();
+    }
+})
